@@ -1,27 +1,255 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/prueba.css">
-    <title>Document</title>
+    <meta charset="utf-8" />
+
+    <title>El título de mi página</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet"
+        type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="prueba.css" />
+
+    <!-- las tres siguientes líneas son un truco para obtener elementos semánticos de HTML5 que funcionan en versiones de Internet Explorer antiguas -->
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
 </head>
 
 <body>
-    <header>Musica de todo</header>
+    <!-- Aquí empieza el encabezado principal que se mantendrá en todas las páginas del sitio web -->
+
+    <header>
+        <img src="/assets/melanie martinez.png" alt="">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Nuestro equipo</a></li>
+            <li><a href="#">Proyectos</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+
+        <!-- Un formulario de búsqueda es una forma no-lineal de hacer búsquedas en un sitio web. -->
+
+        <form>
+            <input type="search" name="q" placeholder="Buscar" />
+            <input type="submit" value="¡Vamos!" />
+        </form>
+    </nav>
+
+    <!-- Aquí está el contenido principal de nuestra página -->
     <main>
-        </section>
-        <section>
-            <h1>Musica</h1>
-            <p>Mi genero musical es extenso pero tambien especifico, podria describir que me gusta la sensacion de vivir
-                el momento. Tal vez que suene un violin, el coro o la percusion. Creci con más de lo que es el reguee
-                (Bob Marley), rap (Calle 13, Rene), rock nacional (Indio Solari, La Renga) y independiente (Manu Chabo).
-                Luego fuera de las ramas, escucho pop, phonk, rock-indie y folklore.</p>
-        </section>
+        <!-- Contiene un artículo -->
+        <article>
+            <h2 id="historia">Historia.</h2>
+            <p>
+                Melanie Martinez es una cantante, compositora y productora de Estados Unidos, Astoria, New York (tambien
+                es <strong>directora</strong> y <strong>actriz</strong>). Nacio
+                el <strong>28 de abril de 1995</strong>. Su fama empieza en un show de talentos estadounidense, <i>The
+                    voice</i>. Impresiono a la audencia con un cover de <i>Toxic, Britney Spears</i> en estilo de Jazz.
+                Los jueces, sobre todo a Adan Levine. Quien trabajaria por el resto del show, aunque Melanie termino
+                siendo descalificada en la sexta ronda, aun asi, ella tomo su oportunidad de reconocimiento para
+                ingresar en la industria de la musica. EMpezando con una pequeña gira musical en todo Estados Unidos.
+                Uno de sus grandes exitos y primera cancion publicada, fue <strong>Dollhouse</strong>, por su gran video
+                musical, el ritmo melancolico y excalofriante.
+                Su genero musical esta enlazado con un pop alternativo, indie pop, hip-hop y dream-pop. Aunque la
+                cantante tiene inspiraciones de sus propios padres, y otros/as cantantes indies en su inspiracion y
+                creatividad. <i>acreditado a Kimbra, Gregory and the Hawk, Feist y Regina Spektor.</i>
+                La creatividad y letras es lo que más se destaca de ella, debido a que rompe con ciertas censuras en lo
+                que la audencia industrial ppor tratar temas tabu, (sexualizacion infatil y a la mujer, machismo,
+                conflictos sociales, perjuicios, depresion, etc), junto con la historia que se cuenta en los tres
+                albunes. Aparte de su voz que puede ser muy afinada para el
+                tipo de ritmo que se basa, aunque esta misma provoca escalofrio a la gente
+                Otros temas conocidos de esta cantante mundialmente son: <strong>Pacify Her, Soap, Mrs. Potato Head, Mad
+                    Hatter,</strong> etc.
+            </p>
+
+            <h3 id="crybaby">Cry Baby.</h3>
+
+            <p>
+                <strong><u>CRY BABY</u></strong>, <i>14 de Agosto de 2015, Atlantic Records</i>, fue el primer albúm en
+                el cual Melanie Martinez debuto, un exito total en la decada, más para las jovenes adolcentes y
+                adultas, provocando un estilo de vida y moda entre la juventud del momento. Habla de la historia de una
+                niña pequeña que es una llorona e ingenua, y como poco a poco empieza a perder la cordura consigo misma
+                por las situaciones horiibles que paso en su infancia. Una madre neligente, un hermano que esta adentro
+                de las drogas y un padre infiel. Tiene dos EP; <i>Dollhouse</i>, <i>Cry Baby's Extra Clutters </i>
+            </p>
+            <ul>
+                <li><a target="_blank" href="https://youtu.be/O87lzhoexyA?si=mh12TR1Cyq5Tt_XR"><img
+                            src="/assets/video.png" width="20">Cry Baby.</a></li>
+                <li><a target="_blank" href="https://youtu.be/HcVv9R1ZR84?si=2dAbkv75d8di_JBu"><img
+                            src="/assets/video.png" alt="" width="20">Dollhouse.</a></li>
+                <li><a target="_blank" href="https://youtu.be/VdwaWp59qz8?si=1M8AlG0Q7enO5YIA"><img
+                            src="/assets/video.png" alt="" width="20">Sippy Cup</a></li>
+                <li><a target="_blank" href="https://youtu.be/zAB5AC9yhY0?si=J1uzBRCcNOkRZ9-g"><img
+                            src="/assets/video.png" alt="" width="20">Carousel.</a></li>
+                <li><a target="_blank" href="https://youtu.be/NH-5aUFoF9g?si=8UHtTu-gxQVFgKgd"><img
+                            src="/assets/video.png" alt="" width="20">Alphabet Boy.</a></li>
+                <li><a target="_blank" href="https://youtu.be/YjZNBGY0A38?si=rZHjZPlKP6AmlxAh"><img
+                            src="/assets/video.png" alt="" width="20">Soap.</a></li>
+                <li><a target="_blank" href="https://youtu.be/OKBB1VufWCg?si=zZNxSJO6SGayRkIT"><img
+                            src="/assets/video.png" alt="" width="20">Training Wheels.</a></li>
+                <li><a target="_blank" href="https://youtu.be/6bAPlojfgO0?si=HCwv-vMrxCoCA4gx"><img
+                            src="/assets/video.png" alt="" width="20">Pity Party</a></li>
+                <li><a target="_blank" href="https://youtu.be/Kop7i7uBj9I?si=e4ymcgFSIhTj52ea"><img
+                            src="/assets/video.png" alt="" width="20">Tag, You're It</a></li>
+                <li><a target="_blank" href="https://youtu.be/qSdo2mvGLKQ?si=KJdGoPCz_7aVG-NU"><img
+                            src="/assets/video.png" alt="" width="20">Milk and Cookies.</a></li>
+                <li><a target="_blank" href="https://youtu.be/9u14-QBPzSE?si=7esdcoNcHEcOIR91"><img
+                            src="/assets/video.png" alt="" width="20">Pacify Her.</a></li>
+                <li><a target="_blank" href="https://youtu.be/wkri1NUq9ro?si=ItjugRWQKrs__qa8"><img
+                            src="/assets/video.png" alt="" width="20">Mrs. Potato Head</a></li>
+                <li><a target="_blank" href="https://youtu.be/RX7dyPt2oB8?si=lDF_UWkVVfwOPn5h"><img
+                            src="/assets/video.png" alt="" width="20">Mad Hatter</a></li>
+
+            </ul>
+            <picture><img src="/assets/423397.jpg" alt="" width="250">
+                <img src="/assets/crybabyextra.png.webp" alt="" width="250">
+                <img src="/assets/crybaby.jpg" alt="" width="250">
+            </picture>
+
+            <h3 id="k12">K-12.</h3>
+
+            <p>
+                <strong><u>K-12</u></strong>, <i>6 de septiembre de 2019, Atlantics Records</i>, segundo albúm
+                lanzado. Este albúm atraviesa una nueva etapa de Cry Baby, en el cual esta empieza a ir a una escuela
+                primaria hasta el 12 grado. Pero este lugar las cosas son bastantes raras, por lo cual, Cry Baby tendra
+                que afrontar las circuntancias con sus amigos. Este album lleva consigo una pelicula producida y
+                dirigida por la misma Melanie Martinez, que se lleva a carne propia toda el transcurso del albún en
+                pantalla.
+            </p>
+            <Ul>
+                <li><a target="_blank" href="https://youtu.be/5Q_q9cq3B5A?si=piLyhIuQYLSyAP92"><img
+                            src="/assets/video.png" alt="" width="20"> Wheels on the Bus.</a></li>
+                <li><a target="_blank" href="https://youtu.be/XAVFWtus75k?si=KV37Cdt3Lg7hEEvh"><img
+                            src="/assets/video.png" alt="" width="20">Class Fight.</a></li>
+                <li><a target="_blank" href="https://youtu.be/plJCH77VMoI?si=O_VOOyF17zq-0myx"><img
+                            src="/assets/video.png" alt="" width="20">The Principal.</a></li>
+                <li><a target="_blank" href="https://youtu.be/8cXPoQ5WalM?si=4Fccktw94-zxBSTZ"><img
+                            src="/assets/video.png" alt="" width="20">Show and Tell.</a></li>
+                <li><a target="_blank" href="https://youtu.be/R2YM5zSapNg?si=2U1TikXYUw4Yfxmr"><img
+                            src="/assets/video.png" alt="" width="20">Nurse's Office</a></li>
+                <li><a target="_blank" href="https://youtu.be/d160cNDM90E?si=zTIZbpZK3ILTgEsr"><img
+                            src="/assets/video.png" alt="" width="20">Drama Club.</a></li>
+                <li><a target="_blank" href="https://youtu.be/0EQ-NNM8l64?si=eqqSrUZDZUtNAq5C"><img
+                            src="/assets/video.png" alt="" width="20">Strawberry Shortcake.</a></li>
+                <li><a target="_blank" href="https://youtu.be/rYd92fTkg7k?si=xUIiyB7JjCubiRrg"><img
+                            src="/assets/video.png" alt="" width="20">Lunchbox Friends.</a></li>
+                <li><a target="_blank" href="https://youtu.be/GDKyZRZEt70?si=1Wh_ZeHETJR6sh0G"><img
+                            src="/assets/video.png" alt="" width="20">Orange Juice.</a></li>
+                <li><a target="_blank" href="https://youtu.be/q6IW2aul43A?si=vGcQP8iwMjO2WYbl"><img
+                            src="/assets/video.png" alt="" width="20">Detention.</a></li>
+                <li><a target="_blank" href="https://youtu.be/0kgIJ85whKw?si=V8pCpMRTcL1aQYMq"><img
+                            src="/assets/video.png" alt="" width="20"> Teacher's Pet</a></li>
+                <li><a target="_blank" href="https://youtu.be/dn5rSbHGsHY?si=JGWMrKR9bqqrhWmW"><img
+                            src="/assets/video.png" alt="" width="20"> High School Sweethearts.</a></li>
+                <li><a target="_blank" href="https://youtu.be/NWuvOQtzuGE?si=8KWGVUfMpP9p4IMv"><img
+                            src="/assets/video.png" alt="" width="20">Recess</a></li>
+                <li><a target="_blank" href="https://youtu.be/EJ91yqDDkGw?si=rAxp_gWBpnetdp1Z"><img
+                            src="/assets/video.png" alt="" width="20">Fire Drill</a></li>
+            </Ul>
+            <p>Tambien cuenta con una pelicula qué desarolla más el concepto.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/K6TTLjVefuM?si=U2iNmvq_3KsB-gXX"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <picture><img src="/assets/Melanie_Martinez_-_K-12.png" alt="" width="250">
+                <img src="/assets/k-122.png" alt="" width="250">
+            </picture>
+            <h3 id="afterschool">After School (Extended Play).</h3>
+            <p><strong><u>After School</u></strong>, <i>25 de septiembre de 2020, Atlantics Records</i>, es el sencillo
+                despues de <i>K-12</i>. Este sencillo es el más completo y publicado fisicamente en la discoderia. No
+                hay mucha informacion sore la historia detras de este EP que incolucre a Cry
+                Baby, pero si explica sobre varias situaciones de la vida real.</p>
+            <ul>
+                <li><a target="_blank" href="https://youtu.be/Bd6dkXWFpNE?si=yx4sBMY4YGUlQ-pJ"><img
+                            src="/assets/video.png" alt="" class="play">Notebook.</a></li>
+                <li><a target="_blank" href="https://youtu.be/2j3Dj6UmmSI?si=3BfLDNlTpjD0kZRN"><img
+                            src="/assets/video.png" alt="" class="play">Test Me.</a></li>
+                <li><a target="_blank" href="https://youtu.be/w22qckVMg6k?si=pcu1FH7FYdHVOj7t"><img
+                            src="/assets/video.png" alt="" class="play">Brain and Heart.</a></li>
+                <li><a target="_blank" href="https://youtu.be/aRCRsseUsRk?si=hObj_P1kzzuGDV5K"><img
+                            src="/assets/video.png" alt="" class="play">Numbers.</a></li>
+                <li><a target="_blank" href="https://youtu.be/90COzuYAKDo?si=oCIr0-j1G8nHL36E"><img
+                            src="/assets/video.png" alt="" class="play">Glued.</a></li>
+                <li><a target="_blank" href="https://youtu.be/uHYnWBSLcng?si=B_YRU1m61nx_O_qy"><img
+                            src="/assets/video.png" alt="" class="play">Field Trip.</a></li>
+            </ul>
+            <picture><img src="/assets/after school.jpg" alt="" width="500"></picture>
+            <h3 id="portals">PORTALS.</h3>
+            <p><strong><u>PORTALS</u></strong>, <i>31 de marzo, Atlantics Records</i>. Luego de dos años de inactividad
+                por una calumina de abuso sexual, por quien era su mejor amiga, Timothy Heller, retomo su carerra con el
+                album <strong>PORTALS</strong>, junto con la cancion <i>Death</i>. Gracias a las redes sociales, se
+                difundio de manera masiva, recobrando su imagen con la nueva version de <i>Cry Baby</i> y su concepto,
+                <i>la
+                    vida despues de la muerte</i>. Personalmente, este es mi albúm favorito de los que a publicado,
+                debido por la ingeniosa manera de convertir un mundo magico en algo tragico, pero tambien transcendetal.
+            </p>
+            <ul>
+                <li><a target="_blank" href="https://youtu.be/Nhx9QDuqpDM?si=UIfSqACp9Pmm1xk0"><img
+                            src="/assets/video.png" alt="" class="play">DEATH.</a></li> <!--Agregar Classe-->>
+                <li><a target="_blank" href="https://youtu.be/fzAyZ1Lh-zI?si=ICU5Q9B4rzc6Yinm"><img
+                            src="/assets/video.png" alt="" class="play">VOID.</a></li>
+                <li><a target="_blank" href="https://youtu.be/yOzjYs-teqA?si=c1BjqKY_FCvkdCb9"><img
+                            src="/assets/video.png" alt="" class="play">TUNNEL VISION.</a></li>
+                <li><a target="_blank" href="https://youtu.be/z7APVSchu30?si=iDY4bMBaOZH7qPny"><img
+                            src="/assets/video.png" alt="" class="play">FAERIE SOIRÉE.</a></li>
+                <li><a target="_blank" href="https://youtu.be/Gv-Y1x1UXYA?si=2NyuRGI7_qUzLchi"><img
+                            src="/assets/video.png" alt="" class="play">LIGHT
+                        SHOWER.</a></li>
+                <li><a target="_blank" href="https://youtu.be/oR_oQIK5v5A?si=i3Qy1kTJaTDpTsm8"><img
+                            src="/assets/video.png" alt="" class="play">SPIDER WEB.</a></li>
+                <li><a target="_blank" href="https://youtu.be/sZh9qRPkzyE?si=1XtNrFOAv8h5guZ7"><img
+                            src="/assets/video.png" alt="" class="play">LEECHES.</a></li>
+                <li><a target="_blank" href="https://youtu.be/iboBriFT7xg?si=WuBg66zB4gV3l_Hh"><img
+                            src="/assets/video.png" alt="" class="play">BATTLE OF THE LARYNX.</a></li>
+                <li><a target="_blank" href="https://youtu.be/w2SkztLgIOk?si=tWwx5qA89wRGbLMO"><img
+                            src="/assets/video.png" alt="" class="play"></a>
+                </li>
+            </ul>
+            <picture><img src="/assets/Fr3FC4QakAArNnM.jpg" alt="" width="500">
+                <img src="/assets/melanie-martinez-portals-1-e1680541331860.jpg" alt="" width="500">
+            </picture>
+        </article>
+
+        <!-- el contenido aparte también se puede anidar dentro del contenido principal -->
+        <aside>
+            <h2>Relacionado</h2>
+
+            <img src="/assets/melaniemartinez.webp" alt="" width="100%">
+
+            <ul>
+                <li><a href="#historia">Historia.</a></li>
+                <li><a href="#crybaby">Cry Baby (album)</a></li>
+                <li><a href="#k12">K-12 (album).</a></li>
+                <li><a href="#afterschool">After School (Extended Play).</a></li>
+                <li><a href="#portals">Portals (album).</a></li>
+            </ul>
+        </aside>
     </main>
-    <footer></footer>
+
+    <!-- Y aquí está nuestro pie de página principal que se utiliza en todas las páginas de nuestro sitio web -->
+
+    <footer>
+
+        <ul>
+            <li><img src="/assets/instagram.png" alt="" class="play"><a
+                    href="https://www.instagram.com/littlebodybigheart/?hl=es-la">@littlebodybigheart </a></li>
+            <li><img src="/assets/youtube.png" alt="" class="play"> <a
+                    href="https://www.youtube.com/@MelanieMartinez">Melanie Martinez.</a></li>
+            <li><img src="/assets/spotify.png" alt="" class="play"> <a
+                    href="https://open.spotify.com/intl-es/artist/63yrD80RY3RNEM2YDpUpO8">Melanie Martinez.</a></li>
+            <li><img src="/assets/twitter-alt.png" alt="" class="play"><a href="https://twitter.com/melanielbbh"><img
+                        src="" alt="">@MelanieLBBH</a></li>
+            <li> <img src="/assets/strawmellie.jpg" alt="" class="play"><a
+                    href="https://www.melaniemartinezmusic.com/">Melanie Martinez Music.</a></li>
+        </ul>
+        <p>©Copyright 2050 de nadie. Todos los derechos revertidos.</p>
+    </footer>
 </body>
 
 </html>
